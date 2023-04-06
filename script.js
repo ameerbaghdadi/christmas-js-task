@@ -14,6 +14,6 @@ const exHoursLeft = (exDaysLeft - daysLeft) * 24;
 const hoursLeft = Math.floor(exHoursLeft);
 const minsLeft = Math.floor((exHoursLeft - hoursLeft) * 60);
 
-console.log(timeLeft);
+console.log("Numbers of days left: " + daysLeft + " days " + hoursLeft + " hours and " + minsLeft + " minutes left Until December 25th 2023");
 
 document.write("Numbers of days left:<br> <h3>" + daysLeft + " days " + hoursLeft + " hours and " + minsLeft + " minutes left </h3> Until December 25th 2023");
